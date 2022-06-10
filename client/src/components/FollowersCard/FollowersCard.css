@@ -1,0 +1,36 @@
+.followersCard {
+  width: 100%;
+  border-radius: 0.7rem;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.followersCard__follower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.followersCard__follower > div {
+  display: flex;
+  gap: 10px;
+}
+
+.followerImg {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+}
+
+.followersCard__follower .name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.followersCard__btn {
+  padding: 0 20px;
+  height: 2rem;
+}
